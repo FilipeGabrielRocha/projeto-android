@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    header menu#itens {
+        display: block;
+    }
+
+    header span#menu {
+        display: none;
+    }
+
+    menu#itens ul li {
+        display: inline-block;
+    }
+
+    menu#itens ul {
+        text-align: left;
+    }
+
+    main {
+        width: 700px;
+    }
+
+    main h1 {
+        font-size: 2.2em;
+    }
+
+    main p {
+        line-height: 1.8em;
+    }
+
+    aside ul {
+        columns: 2;
+        font-size: 1.1em;
+        list-style-position: inside;
+        list-style-type: '\2714\00A0\00A0';
+    }
+}
