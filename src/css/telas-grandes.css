@@ -36,3 +36,9 @@
         list-style-type: '\2714\00A0\00A0';
     }
 }
+
+@media screen and (min-width: 1000px) {
+    main {
+        width: 900px;
+    }
+}
